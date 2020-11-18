@@ -1,0 +1,150 @@
+footer{
+    background-color: #181818;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    padding: 75px 0;
+}
+
+.footer-brand{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: gold;
+    cursor: pointer;
+}
+
+.footer-heading{
+    font-size: 0.75rem;
+    color: gold;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footer-form{
+    font-size: 0.75rem;
+}
+
+.footer-form-btn{
+    background-color: gold;
+    border-radius: 0;
+    padding: 5px 25px;
+    font-weight: 500;
+}
+
+.footer-form-input{
+    border-radius: 0;
+    background-color: #181818;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gold;
+    font-weight: 500;
+}
+
+.footer-form-input:focus{
+    background-color: #181818;
+}
+
+hr{
+    border: 1px solid white;
+}
+
+.footer-heading-2{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.categories, .footer-sec{
+    margin-bottom: 10px;
+    list-style-type:none;
+    font-size: 0.75rem;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.categories>li, .footer-sec>li, .social{
+    cursor: pointer;
+}
+
+.footer-img{
+    margin-top: 10px;
+    width: 100%;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+}
+  
+@keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+}
+
+.footer-form-inline{
+    display: flex;
+    flex-direction: row;
+}
+
+.mobile-categories{
+    display: none;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 992px) {
+    .footer-form-btn{
+        padding: 0 2px;
+        font-size: 0.55rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer{
+        padding: 15px 0;
+    }
+
+    .footer-sec, .footer-email-sec, .footer-hr, .categories{
+        display: none;
+    }
+
+    .footer-heading {
+        margin-bottom: 5px;
+    }
+
+    .social-icons{
+        margin-right: 10px;
+        font-size: 1.15rem !important;
+    }
+
+    .footer-heading-2{
+        font-size: 0.75rem;
+        color: gold;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        font-weight: 700;
+    }
+
+    .mobile-categories{
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer-container{
+        margin: 0;
+    }
+
+    footer{
+        padding: 10px 0;
+    }
+}

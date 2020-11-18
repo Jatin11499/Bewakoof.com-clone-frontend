@@ -1,0 +1,46 @@
+.log{
+    margin-bottom: 10px;
+}
+
+.btn-login{
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 125px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.login-form{
+    text-align: center;
+}
+
+.form-group{
+    margin: 10px;
+}
+
+.signup-link{
+    text-decoration: none;
+}
+
+.login-page{
+    font-weight: 600;
+    height: 100vh;
+}
+
+.card-head-text{
+    color: gray;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.login-logo{
+    width: 15vw;
+    margin-bottom: 20px;
+}
+
+.login-card-logo{
+    text-align: center;
+}

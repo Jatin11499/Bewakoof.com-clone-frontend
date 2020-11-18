@@ -1,0 +1,7 @@
+.carousel{
+    margin-top: 50px;
+}
+
+.arousel-control-prev-icon, .carousel-control-next-icon{
+    cursor: pointer;
+}

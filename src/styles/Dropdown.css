@@ -1,0 +1,40 @@
+.row-dd{
+    width: 85vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.dropdown-menu-m{
+    left: -205px;
+    top: 46px;
+}
+
+.dropdown-menu-w{
+    left: -258px;
+    top: 46px;
+}
+
+.dropdown-item{
+    font-size: 0.85rem;
+    color: rgb(150,150,150);
+}
+
+.heading{
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgb(50,50,50);
+}
+
+sup{
+    font-size: 0.5rem;
+    color: red;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+    .dropdown-menu-w, .dropdown-menu-m{
+        display: none !important;
+    }
+}

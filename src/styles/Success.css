@@ -1,0 +1,25 @@
+.sc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+.sc h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.sc a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sc h1{
+        font-size: 35px !important;
+    }
+
+    .sc h3{
+        font-size: 20px !important;
+    }
+}

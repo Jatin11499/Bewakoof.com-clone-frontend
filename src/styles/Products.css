@@ -1,0 +1,152 @@
+.row-path{
+    margin-top: 70px;
+    font-size: 0.70rem;
+    letter-spacing: 1px;
+}
+
+.row-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row-title h4{
+    font-weight: 700;
+    padding: 0;
+}
+
+.row-title span{
+    color: gray;
+    font-weight: 400;
+}
+
+.row-title > hr{
+    width: 125px;
+    border: 1px solid gold;
+    opacity: 1;
+}
+
+.category-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category-list > li{
+    color: gray;
+    font-size: 0.75rem;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.acc-title{
+    font-weight: 500;
+}
+
+.product-cat{
+    padding: 0;
+}
+
+.colors-sec{
+    display: flex;
+    flex-direction: column;
+}
+
+.colors-sec > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5px 0;
+}
+
+.colors-sec > div > div{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.item-card{
+    margin: 20px 0px 20px 10px;
+    height: 100% !important;
+    width: 100% !important;
+    align-items: center;
+}
+
+.products{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item-title{
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.item-text-below{
+    font-size: 0.75rem;
+    background-color: rgb(230,230,230);
+    padding: 2px;
+    font-weight: 500;
+}
+
+.item-text b{
+    font-size: 0.85rem;
+}
+
+.item-text strike{
+    font-size: 0.75rem;
+}
+
+.btn-add-to-cart{
+    bottom: 10px !important;
+    position: absolute !important;
+    width: 85% !important;
+}
+
+.mobile-card{
+    margin-bottom: 20px !important;
+}
+
+.cards{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .product-cat{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .item-title{
+        font-size: 0.75rem;
+    }
+
+    .mobile-card{
+        padding: 0 4px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .row-title{
+        margin: 0;
+    }
+
+    .item-card{
+        margin: 0 0 10px 0;
+    }
+
+    .row-title h4{
+        font-size: 1rem;
+    }
+
+    .btn-add-to-cart{
+        height: 30px !important;
+        font-size: 0.65rem !important;
+    }
+
+    .cards{
+        margin-bottom: 15px;
+    }
+}
