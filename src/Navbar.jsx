@@ -67,7 +67,7 @@ function Navbar() {
                                 className="nav-link desk-nav" 
                                 to={!user && "/login"} 
                                 style={user ? {color:"white",paddingRight:"0px"} : {color:"black",paddingRight:"0px"}}>
-                                    <span> | Hello {user ? user.displayName : "User"}</span>{!user && " | Login"}
+                                    <span> | Hello {user ? user.displayName.split(" ")[0] : "User"}</span>{!user && " | Login"}
                             </NavLink>
                             <p 
                                 className="nav-link desk-nav" 
@@ -139,5 +139,7 @@ function Navbar() {
         </div>
     )
 }
+
+
 
 export default Navbar;

@@ -6,6 +6,7 @@ import Login from './Login';
 import Register from './Register';
 import Products from './Products';
 import Cart from './Cart';
+import OrderSummary from './OrderSummary';
 import Success from './Success';
 import { Route, Switch } from 'react-router-dom';
 import { useStateValue } from './StateProvider';
@@ -45,6 +46,7 @@ function App() {
         <Route exact path='/women-clothing' render={() => <Products path="Women Clothing" title="Clothing for Women"/>} />
         <Route exact path='/topwear-for-men-and-women' render={() => <Products path="Men's & Women's Top Wear" title="Men's & Women's Top Wear"/>} />
         <Route exact path='/cart' component={Cart} />
+        <Route exact path='/order-summary' component={OrderSummary} />
         <Route exact path='/success' component={Success} />
       </Switch>
     </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import Fab from '@material-ui/core/Fab';
-import AddShoppingCartOutlinedIcon from '@material-ui/icons/AddShoppingCartOutlined';
 import { useStateValue } from './StateProvider';
 
 function ProductCard(props) {

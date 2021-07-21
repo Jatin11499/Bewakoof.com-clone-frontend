@@ -1,13 +1,11 @@
 import React from 'react';
-import Fab from '@material-ui/core/Fab';
 import { useStateValue } from './StateProvider';
 import { getBagTotal } from './reducer';
 import CurrencyFormat from 'react-currency-format';
-import { NavLink } from 'react-router-dom';
 
-function SubTotal() {
+function SubTotalBill() {
     const [{ bag, user }] = useStateValue();
-
+    
     return (
         <>
             <div className="card">
@@ -35,11 +33,10 @@ function SubTotal() {
                             prefix={"₹"}
                         /></b></p>
                     <p className="checkout-details"><b>Final Amount</b></p>
-                    <Fab className="btn-order" variant="extended"><NavLink exact to={!user ? "/login" : "/order-summary"}>Continue</NavLink></Fab>
                 </div>
             </div>
         </>
     )
 }
 
-export default SubTotal;
+export default SubTotalBill;
